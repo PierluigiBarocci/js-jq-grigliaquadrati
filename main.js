@@ -24,7 +24,8 @@ while(ranArray.length < 15) {
 // faccio un log momentano per assicurarmi che l'Array abbia 15 numeri diversi tra loro,
 // per comodità li metto in ordine crescente, si legge meglio
 console.log(myNumbSorting(ranArray));
-
+console.log($('.square').length);
+console.log($('.row').length);
 // con la stessa logica, continuo a riempire l'Array con i restanti numeri;
 // solo che questa volta assegna classe sure;
 // alla fine del ciclo dovrei ottenere un array con tutti i numeri da 0 a 63, che
